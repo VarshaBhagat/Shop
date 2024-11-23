@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@media only screen and (max-width: 1280px) {
+  .store {
+    width: 8rem;
+    height: 8rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .store {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .homeIcon {
+    height: 20px;
+  }
+  .searchIcon {
+    height: 20px;
+  }
+  h1 {
+    font-size: 24px !important;
+  }
+  p {
+    font-size: 12px !important;
+    line-height: 15px !important;
+  }
+  .template-text {
+    width: 90px !important;
+  }
+  button {
+    font-size: 12px !important;
+    padding: 5px !important;
+    width: fit-content !important;
+    height: auto !important;
+  }
+  section {
+    gap: 10px !important;
+  }
+  .tag {
+    font-size: 12px;
+    line-height: 12px;
+    padding: 5px;
+    min-width: fit-content;
+    display: flex;
+    align-items: center;
+  }
+  img {
+    width: 90px !important;
+    height: auto !important;
+  }
+  .try {
+    font-size: 8px !important;
+    height: auto;
+    padding: 0 5px;
+  }
+  .tag-list {
+    gap: 0.25rem;
+  }
+  .list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .item {
+    padding: 0.5rem;
+  }
+  .store {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  .example {
+    margin: 8px;
+  }
+}
+
+
