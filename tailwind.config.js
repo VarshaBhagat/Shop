@@ -1,4 +1,4 @@
-import img from './public/bag1'
+import img from './public/bag1.png'
 module.exports = {
 
   content: [
